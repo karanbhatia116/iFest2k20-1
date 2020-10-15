@@ -264,6 +264,12 @@ main .content {
     width: 1px;
 }
 
+#tictechtoelogo
+{
+    height:8vw;
+    width:40vw;
+}
+
 
 /* 
 // navbar ends
@@ -363,8 +369,8 @@ main .content {
         left: -3%;
     }
     #mainLogo {
-        max-width: 40px;
-        max-height: 40px;
+        /* max-width: 40px;
+        max-height: 40px; */
         margin-top: 10px
     }
 }
