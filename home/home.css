@@ -85,9 +85,17 @@ body {
 .fullpage-scroll {}
 
 #main-container div#maroon {
-    /* background-color: steelblue; */
-    background-image: url("../images/aakash.jpg");
-    background-size: 100% 100%
+    /* background-color:black; */
+    background-image: url("../images/crossbackground.png");
+   /* background-size: 100%;*/
+    /*background-repeat: no-repeat*/;
+   /* background-attachment: fixed; */
+    /*background-position: center;*/
+   /* height: fit-content;*/
+    /*background-color: #000000;
+    background: -webkit-linear-gradient(to top right, #333, #aaaaaa);
+    background: linear-gradient(to top right, #333, #000000);*/
+  
 }
 
 #main-container div#red {
@@ -112,7 +120,7 @@ body {
 #main-container div#green {
     /* background-color: steelblue; */
     background: #000000;
-    background: -webkit-linear-gradient(to top right, #333, #000000);
+    background: -webkit-linear-gradient(to top right, #333, #aaaaaa);
     background: linear-gradient(to top right, #333, #000000);
 }
 
@@ -183,12 +191,22 @@ body {
     font-size: 20px;
     margin: 0 12px;
     transition: all .2s;
+    position: relative;
     /* overflow: hidden; */
 }
 
 .social-media li a {
     color: white;
     text-decoration: none;
+
+}
+i{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
 }
 
 .social-media li:hover {
