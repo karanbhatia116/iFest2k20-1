@@ -127,7 +127,7 @@ nav::before {
     left: 0;
     z-index: -1;
     width: 25em;
-    background: #fff;
+    background: #f0f1f0;
     content: '';
     /* ---------------------------------------------------------------------------------------------------------- */
     transform: skewX(-15deg) translateX(-150%);
